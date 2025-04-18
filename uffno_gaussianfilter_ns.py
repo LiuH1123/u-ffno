@@ -299,8 +299,8 @@ class DUFNO2d(nn.Module):
 ################################################################
 # configs
 ################################################################
-TRAIN_PATH = '/mnt/68213B282F65B10C/LiuH/data/Navier_Stokes/ns_V1e-4_N10000_T30.mat'
-TEST_PATH = '/mnt/68213B282F65B10C/LiuH/data/Navier_Stokes/ns_V1e-4_N10000_T30.mat'
+TRAIN_PATH = '/data/Navier_Stokes/ns_V1e-4_N10000_T30.mat'
+TEST_PATH = '/data/Navier_Stokes/ns_V1e-4_N10000_T30.mat'
 
 ntrain = 1000  # 训练数据集大小
 ntest = 200
