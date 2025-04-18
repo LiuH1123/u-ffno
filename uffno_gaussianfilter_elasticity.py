@@ -298,8 +298,8 @@ class DUFNO2d(nn.Module):
 ################################################################
 # configs
 ################################################################
-INPUT_PATH = '/mnt/68213B282F65B10C/LiuH/data/elasticity/Interp/Random_UnitCell_mask_10_interp.npy'
-OUTPUT_PATH = '/mnt/68213B282F65B10C/LiuH/data/elasticity/Interp/Random_UnitCell_sigma_10_interp.npy'
+INPUT_PATH = '/data/elasticity/Interp/Random_UnitCell_mask_10_interp.npy'
+OUTPUT_PATH = '/data/elasticity/Interp/Random_UnitCell_sigma_10_interp.npy'
 Ntotal = 2000
 ntrain = 1000
 ntest = 200
