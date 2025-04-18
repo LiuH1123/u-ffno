@@ -310,9 +310,9 @@ class DUFNO2d(nn.Module):
 ################################################################
 # configs
 ################################################################
-INPUT_X = "/mnt/68213B282F65B10C/LiuH/data/airfoil/naca/NACA_Cylinder_X.npy"
-INPUT_Y = "/mnt/68213B282F65B10C/LiuH/data/airfoil/naca/NACA_Cylinder_Y.npy"
-OUTPUT_Sigma = "/mnt/68213B282F65B10C/LiuH/data/airfoil/naca/NACA_Cylinder_Q.npy"
+INPUT_X = "/airfoil/naca/NACA_Cylinder_X.npy"
+INPUT_Y = "/data/airfoil/naca/NACA_Cylinder_Y.npy"
+OUTPUT_Sigma = "/data/airfoil/naca/NACA_Cylinder_Q.npy"
 
 ntrain = 1000
 ntest = 200
