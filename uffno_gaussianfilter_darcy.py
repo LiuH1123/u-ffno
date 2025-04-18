@@ -300,8 +300,8 @@ class DUFNO2d(nn.Module):
 ################################################################
 #  configurations
 ################################################################
-TRAIN_PATH = "/mnt/68213B282F65B10C/LiuH/data/Darcy_rectangular_PWC/piececonst_r421_N1024_smooth1.mat"
-TEST_PATH = "/mnt/68213B282F65B10C/LiuH/data/Darcy_rectangular_PWC/piececonst_r421_N1024_smooth2.mat"
+TRAIN_PATH = "/data/Darcy_rectangular_PWC/piececonst_r421_N1024_smooth1.mat"
+TEST_PATH = "/data/Darcy_rectangular_PWC/piececonst_r421_N1024_smooth2.mat"
 
 ntrain = 1000
 ntest = 200
